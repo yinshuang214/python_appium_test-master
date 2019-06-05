@@ -1,0 +1,36 @@
+testinfo:
+    - id: test_login_001
+      title: 登录测试
+      info: 登录测试验证
+
+testcase:
+    - element_info: login
+      is_time: 3
+      find_type: id
+      operate_type: click
+      info: 点击开屏'登录'按钮
+
+    - element_info: editPhone
+      find_type: id
+      operate_type: set_value
+      msg: '18600105776'
+      info: 输入手机号
+
+    - element_info: edit_pwd
+      is_time: 3
+      find_type: id
+      operate_type: set_value
+      msg: '111111qq'
+      info: 输入密码
+
+    - element_info: btn_login
+      find_type: id
+      operate_type: click
+      info: 点击登录按钮
+
+
+check:
+    - element_info: btn_login
+      find_type: id
+      check: default_check
+      info: 验证填写手机控件存在

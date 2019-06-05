@@ -1,0 +1,36 @@
+#控件获取方法
+$id: id
+$ids: ids
+$class_name: class_name
+$class_names: class_names
+$text: text
+$texts: texts
+$index: index
+$xpaths: xpaths
+$xpath: xpath
+$null: null
+
+#登录
+$btn_login: cn.zhimawu:id/login
+$btn_register: cn.zhimawu:id/register
+$wx_login: cn.zhimawu:id/wx_login
+$qq_login: cn.zhimawu:id/qq_login
+$phone_number: cn.zhimawu:id/editPhone
+$pass_word: cn.zhimawu:id/edit_pwd
+$fast_register: cn.zhimawu:id/tv_register
+$verfy_code_login: cn.zhimawu:id/tv_quick_login
+$login: cn.zhimawu:id/btn_login
+
+
+
+#通用设置
+$setting_btn: com.quvideo.xiaoying:id/btn_setting
+$net_disable: com.quvideo.xiaoying:id/setting_network_wifi_checkbox
+$receive_notice: text("接收通知推送")
+$receive_checkbox: android:id/checkbox
+$lang: text("已选择语言")
+$lang_cho_English: text("English")
+$lang_cho_chinese: text("简体中文")
+$lang_English: Language already selected
+$lang_back: com.quvideo.xiaoying:id/choose_language_back
+

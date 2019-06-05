@@ -1,0 +1,7 @@
+2019-05-29 20:46:40,994  - INFO - 运行之前要执行清除日志命令：adb -s 192.168.56.106:5555 logcat -b all -c
+2019-05-29 20:46:47,225  - INFO - ----  test_start_001_登录测试_login_click          ----
+2019-05-29 20:46:50,310  - INFO - ----  test_start_001_登录测试_editPhone_set_value 18600105776        ----
+2019-05-29 20:46:51,498  - INFO - ----  test_start_001_登录测试_edit_pwd_set_value 111111qq        ----
+2019-05-29 20:46:55,192  - INFO - ----  test_start_001_登录测试_btn_login_click          ----
+2019-05-29 20:46:55,897  - INFO - ----  test_start_001_登录测试_btn_login_           ----
+2019-05-29 20:46:55,930  - INFO - [CheckPoint_1]: test_login_ : OK
